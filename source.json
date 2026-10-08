@@ -4,6 +4,7 @@
   "description": "Planificateur personnel CircleTasks pour iPhone.",
   "identifier": "fr.circletasks.source",
   "website": "https://github.com/doncivo/circletasks-releases",
+  "iconURL": "https://raw.githubusercontent.com/doncivo/circletasks-releases/main/icon.png",
   "apps": [
     {
       "name": "CircleTasks",
@@ -11,8 +12,19 @@
       "developerName": "Ali Cherif",
       "subtitle": "Planificateur personnel",
       "localizedDescription": "Tâches, routines, événements et checklists, synchronisés avec la version PC.",
+      "iconURL": "https://raw.githubusercontent.com/doncivo/circletasks-releases/main/icon.png",
       "tintColor": "#C2410C",
       "versions": [
+        {
+          "version": "0.2.0",
+          "buildVersion": "0.2.0",
+          "date": "2026-10-08T13:47:14.049Z",
+          "localizedDescription": "CircleTasks 0.2.0",
+          "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.2.0/CircleTasks.ipa",
+          "size": 6872579,
+          "sha256": "2ddeb1720259d3e93c63b7f2ff78018f6e52d6f158e1c9c8779dd1ca46bd1118",
+          "minOSVersion": "18.0"
+        },
         {
           "version": "0.1.0",
           "date": "2026-10-04T15:26:20.914Z",
@@ -21,7 +33,18 @@
           "size": 3861443,
           "minOSVersion": "18.0"
         }
-      ]
+      ],
+      "version": "0.2.0",
+      "versionDate": "2026-10-08T13:47:14.049Z",
+      "versionDescription": "CircleTasks 0.2.0",
+      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.2.0/CircleTasks.ipa",
+      "size": 6872579,
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "CircleTasks utilise la caméra pour scanner le code d'association affiché sur votre PC."
+        }
+      }
     }
   ],
   "news": []
