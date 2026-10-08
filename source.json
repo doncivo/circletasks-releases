@@ -16,6 +16,16 @@
       "tintColor": "#C2410C",
       "versions": [
         {
+          "version": "0.2.1",
+          "buildVersion": "0.2.1",
+          "date": "2026-10-08T20:17:44.284Z",
+          "localizedDescription": "CircleTasks 0.2.1",
+          "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.2.1/CircleTasks.ipa",
+          "size": 6907307,
+          "sha256": "a6d2b4db2b19ec11e0727557e267857096fc686182a144237e381eb3e0195e19",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.2.0",
           "buildVersion": "0.2.0",
           "date": "2026-10-08T13:47:14.049Z",
@@ -34,15 +44,16 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.2.0",
-      "versionDate": "2026-10-08T13:47:14.049Z",
-      "versionDescription": "CircleTasks 0.2.0",
-      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.2.0/CircleTasks.ipa",
-      "size": 6872579,
+      "version": "0.2.1",
+      "versionDate": "2026-10-08T20:17:44.284Z",
+      "versionDescription": "CircleTasks 0.2.1",
+      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.2.1/CircleTasks.ipa",
+      "size": 6907307,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSCameraUsageDescription": "CircleTasks utilise la caméra pour scanner le code d'association affiché sur votre PC."
+          "NSCameraUsageDescription": "CircleTasks utilise la caméra pour scanner le code d'association affiché sur votre PC.",
+          "NSFaceIDUsageDescription": "CircleTasks utilise Face ID pour garder vos tâches privées."
         }
       }
     }
