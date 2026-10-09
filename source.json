@@ -16,6 +16,16 @@
       "tintColor": "#C2410C",
       "versions": [
         {
+          "version": "0.3.0",
+          "buildVersion": "0.3.0",
+          "date": "2026-10-09T14:48:22.661Z",
+          "localizedDescription": "- Mise à jour de l'iPhone par SideStore : la source CircleTasks propose chaque nouvelle version ; le numéro de version est affiché dans Réglages > À propos et la synchronisation publie le vrai numéro de l'iPhone (plus de « 0.0.0 »).\n- Les rappels sont replanifiés au premier lancement d'une nouvelle version.\n- Synchronisation : l'iPhone rejoint correctement l'état du PC au lieu d'ouvrir sa propre époque ; une époque orpheline est abandonnée au profit de celle du PC, sans perte de données.\n- « À jour » n'est plus affiché tant que l'état n'a pas été publié et lu en entier.\n- Une clé importée n'est jamais prise pour celle du premier appareil ; actions « Démarrer la synchro depuis cet appareil » et « Lancer une reprise complète » proposées en cas d'avertissement.\n- Agenda : un compte reçu du PC sans secret local s'affiche « Connecté ailleurs » (plus de faux bandeau « déconnecté ») ; « Connecter ici » connecte l'iPhone sous une référence neuve.\n- iPhone : titres datés de Tâches et de la Semaine sur une ligne à côté de leurs boutons ; titre « Synchronisation » des Détails sur une ligne.\n- Si la mise à jour des données échoue au démarrage : versions affichées et bouton « Restaurer la sauvegarde d'avant la mise à jour ».\n- Une version plus ancienne que les données ne les modifie pas et indique d'installer la dernière version.\n- PC et iPhone exécutent le même code de synchronisation : mets les deux appareils à jour.",
+          "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.3.0/CircleTasks.ipa",
+          "size": 7267376,
+          "sha256": "9210d9bb0f791d1879409e238cb7f23af0d7f172fa8bdf37b13b351726c7c0d2",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.2.3",
           "buildVersion": "0.2.3",
           "date": "2026-10-09T04:11:39.487Z",
@@ -64,17 +74,19 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.2.3",
-      "versionDate": "2026-10-09T04:11:39.487Z",
-      "versionDescription": "CircleTasks 0.2.3",
-      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.2.3/CircleTasks.ipa",
-      "size": 6998773,
+      "version": "0.3.0",
+      "versionDate": "2026-10-09T14:48:22.661Z",
+      "versionDescription": "- Mise à jour de l'iPhone par SideStore : la source CircleTasks propose chaque nouvelle version ; le numéro de version est affiché dans Réglages > À propos et la synchronisation publie le vrai numéro de l'iPhone (plus de « 0.0.0 »).\n- Les rappels sont replanifiés au premier lancement d'une nouvelle version.\n- Synchronisation : l'iPhone rejoint correctement l'état du PC au lieu d'ouvrir sa propre époque ; une époque orpheline est abandonnée au profit de celle du PC, sans perte de données.\n- « À jour » n'est plus affiché tant que l'état n'a pas été publié et lu en entier.\n- Une clé importée n'est jamais prise pour celle du premier appareil ; actions « Démarrer la synchro depuis cet appareil » et « Lancer une reprise complète » proposées en cas d'avertissement.\n- Agenda : un compte reçu du PC sans secret local s'affiche « Connecté ailleurs » (plus de faux bandeau « déconnecté ») ; « Connecter ici » connecte l'iPhone sous une référence neuve.\n- iPhone : titres datés de Tâches et de la Semaine sur une ligne à côté de leurs boutons ; titre « Synchronisation » des Détails sur une ligne.\n- Si la mise à jour des données échoue au démarrage : versions affichées et bouton « Restaurer la sauvegarde d'avant la mise à jour ».\n- Une version plus ancienne que les données ne les modifie pas et indique d'installer la dernière version.\n- PC et iPhone exécutent le même code de synchronisation : mets les deux appareils à jour.",
+      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.3.0/CircleTasks.ipa",
+      "size": 7267376,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSCameraUsageDescription": "CircleTasks utilise la caméra pour scanner le code d'association affiché sur votre PC.",
+          "NSCameraUsageDescription": "CircleTasks utilise la caméra pour scanner le code d'association affiché sur votre PC et pour photographier une liste de tâches à lire.",
           "NSFaceIDUsageDescription": "CircleTasks utilise Face ID pour garder vos tâches privées.",
-          "NSRemindersFullAccessUsageDescription": "CircleTasks lit les listes Rappels que vous choisissez pour les afficher comme tâches, et y reporte vos changements."
+          "NSMicrophoneUsageDescription": "CircleTasks utilise le micro seulement pendant que vous dictez une tâche. Rien n'est enregistré.",
+          "NSRemindersFullAccessUsageDescription": "CircleTasks lit les listes Rappels que vous choisissez pour les afficher comme tâches, et y reporte vos changements.",
+          "NSSpeechRecognitionUsageDescription": "CircleTasks transforme votre dictée en texte sur l'iPhone, sans rien envoyer."
         }
       }
     }
