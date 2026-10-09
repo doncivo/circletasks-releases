@@ -16,6 +16,16 @@
       "tintColor": "#C2410C",
       "versions": [
         {
+          "version": "0.2.2",
+          "buildVersion": "0.2.2",
+          "date": "2026-10-09T01:02:23.678Z",
+          "localizedDescription": "CircleTasks 0.2.2",
+          "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.2.2/CircleTasks.ipa",
+          "size": 6910617,
+          "sha256": "e3305572ba67e94cadbc53708be3788b71d2fb5d5bb1d00f1046d71bc96bc741",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.2.1",
           "buildVersion": "0.2.1",
           "date": "2026-10-08T20:17:44.284Z",
@@ -44,11 +54,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.2.1",
-      "versionDate": "2026-10-08T20:17:44.284Z",
-      "versionDescription": "CircleTasks 0.2.1",
-      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.2.1/CircleTasks.ipa",
-      "size": 6907307,
+      "version": "0.2.2",
+      "versionDate": "2026-10-09T01:02:23.678Z",
+      "versionDescription": "CircleTasks 0.2.2",
+      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.2.2/CircleTasks.ipa",
+      "size": 6910617,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
