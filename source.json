@@ -16,6 +16,16 @@
       "tintColor": "#C2410C",
       "versions": [
         {
+          "version": "0.3.2",
+          "buildVersion": "0.3.2",
+          "date": "2026-10-15T19:22:33.786Z",
+          "localizedDescription": "- iPhone : la roue des heures de « Nouvelle tâche » se règle au doigt (elle restait bloquée sur « 01 ») ; les rappels se cochent dès qu'une heure est posée.\n- Synchronisation : un oubli d'appareil en échec peut être annulé (« Annuler la demande ») ; « Réessayer » repasse par la confirmation de l'app.\n- Qualité : test de fumée du vrai binaire Windows à chaque suite (écran du jour vérifié à l'écran), suite de tests indépendante du calendrier.",
+          "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.3.2/CircleTasks.ipa",
+          "size": 7268055,
+          "sha256": "506870ca35ac26dc5eaaa762134c4bae2c31bbe310802f2ed3372da1b74700ad",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.3.0",
           "buildVersion": "0.3.0",
           "date": "2026-10-09T14:48:22.661Z",
@@ -74,11 +84,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.3.0",
-      "versionDate": "2026-10-09T14:48:22.661Z",
-      "versionDescription": "- Mise à jour de l'iPhone par SideStore : la source CircleTasks propose chaque nouvelle version ; le numéro de version est affiché dans Réglages > À propos et la synchronisation publie le vrai numéro de l'iPhone (plus de « 0.0.0 »).\n- Les rappels sont replanifiés au premier lancement d'une nouvelle version.\n- Synchronisation : l'iPhone rejoint correctement l'état du PC au lieu d'ouvrir sa propre époque ; une époque orpheline est abandonnée au profit de celle du PC, sans perte de données.\n- « À jour » n'est plus affiché tant que l'état n'a pas été publié et lu en entier.\n- Une clé importée n'est jamais prise pour celle du premier appareil ; actions « Démarrer la synchro depuis cet appareil » et « Lancer une reprise complète » proposées en cas d'avertissement.\n- Agenda : un compte reçu du PC sans secret local s'affiche « Connecté ailleurs » (plus de faux bandeau « déconnecté ») ; « Connecter ici » connecte l'iPhone sous une référence neuve.\n- iPhone : titres datés de Tâches et de la Semaine sur une ligne à côté de leurs boutons ; titre « Synchronisation » des Détails sur une ligne.\n- Si la mise à jour des données échoue au démarrage : versions affichées et bouton « Restaurer la sauvegarde d'avant la mise à jour ».\n- Une version plus ancienne que les données ne les modifie pas et indique d'installer la dernière version.\n- PC et iPhone exécutent le même code de synchronisation : mets les deux appareils à jour.",
-      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.3.0/CircleTasks.ipa",
-      "size": 7267376,
+      "version": "0.3.2",
+      "versionDate": "2026-10-15T19:22:33.786Z",
+      "versionDescription": "- iPhone : la roue des heures de « Nouvelle tâche » se règle au doigt (elle restait bloquée sur « 01 ») ; les rappels se cochent dès qu'une heure est posée.\n- Synchronisation : un oubli d'appareil en échec peut être annulé (« Annuler la demande ») ; « Réessayer » repasse par la confirmation de l'app.\n- Qualité : test de fumée du vrai binaire Windows à chaque suite (écran du jour vérifié à l'écran), suite de tests indépendante du calendrier.",
+      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.3.2/CircleTasks.ipa",
+      "size": 7268055,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
