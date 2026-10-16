@@ -16,6 +16,16 @@
       "tintColor": "#C2410C",
       "versions": [
         {
+          "version": "0.3.3",
+          "buildVersion": "0.3.3",
+          "date": "2026-10-16T17:05:17.927Z",
+          "localizedDescription": "- Synchronisation : la publication d'un appareil bloquée par un instantané d'ancienne époque resté dans iCloud se débloque seule au premier cycle, sans réassociation ; la cause réelle d'un refus de publication est journalisée ; un fichier iCloud évincé est correctement supprimé par l'app sur iPhone.\n- Vérification à faire par Ali sur l'iPhone (fiche docs/stories/Y-IOS-02-FIX-02.md, section « Vérifications manuelles d'Ali ») : après la mise à jour 0.3.2 vers 0.3.3 par SideStore, le bandeau « Cet appareil n'a pas encore publié son état » disparaît au premier cycle, le PC voit l'iPhone dans Réglages > Synchronisation > Détails, une tâche créée d'un côté apparaît de l'autre, le fichier `s-00000001.cts` de l'ancienne époque a disparu d'iCloud Drive, et les journaux exportés montrent `orphan-epoch-relisted` puis `orphan-epoch-deleted`.",
+          "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.3.3/CircleTasks.ipa",
+          "size": 7270520,
+          "sha256": "83a88f833bbfc0303ae0a27aa2fda881649ce92f17712f555a9249ceb7981835",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.3.2",
           "buildVersion": "0.3.2",
           "date": "2026-10-15T19:22:33.786Z",
@@ -84,11 +94,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.3.2",
-      "versionDate": "2026-10-15T19:22:33.786Z",
-      "versionDescription": "- iPhone : la roue des heures de « Nouvelle tâche » se règle au doigt (elle restait bloquée sur « 01 ») ; les rappels se cochent dès qu'une heure est posée.\n- Synchronisation : un oubli d'appareil en échec peut être annulé (« Annuler la demande ») ; « Réessayer » repasse par la confirmation de l'app.\n- Qualité : test de fumée du vrai binaire Windows à chaque suite (écran du jour vérifié à l'écran), suite de tests indépendante du calendrier.",
-      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.3.2/CircleTasks.ipa",
-      "size": 7268055,
+      "version": "0.3.3",
+      "versionDate": "2026-10-16T17:05:17.927Z",
+      "versionDescription": "- Synchronisation : la publication d'un appareil bloquée par un instantané d'ancienne époque resté dans iCloud se débloque seule au premier cycle, sans réassociation ; la cause réelle d'un refus de publication est journalisée ; un fichier iCloud évincé est correctement supprimé par l'app sur iPhone.\n- Vérification à faire par Ali sur l'iPhone (fiche docs/stories/Y-IOS-02-FIX-02.md, section « Vérifications manuelles d'Ali ») : après la mise à jour 0.3.2 vers 0.3.3 par SideStore, le bandeau « Cet appareil n'a pas encore publié son état » disparaît au premier cycle, le PC voit l'iPhone dans Réglages > Synchronisation > Détails, une tâche créée d'un côté apparaît de l'autre, le fichier `s-00000001.cts` de l'ancienne époque a disparu d'iCloud Drive, et les journaux exportés montrent `orphan-epoch-relisted` puis `orphan-epoch-deleted`.",
+      "downloadURL": "https://github.com/doncivo/circletasks-releases/releases/download/ios-v0.3.3/CircleTasks.ipa",
+      "size": 7270520,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
